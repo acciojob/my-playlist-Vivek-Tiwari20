@@ -1,5 +1,44 @@
 /*  your css code here. If applicable */
+*{
+	font-family: Arial, Helvetica, sans-serif;
+}
 a{
   text-decoration: none;
   color: black;
 }
+.player_one{
+	display:flex;
+	flex-direction: column;
+	background-color:#FEFFFE;
+	border:1px solid black;
+	border-radius: 5px;
+	padding:10px;
+}
+h1 ,h2{
+	  text-align: center;
+}
+.whole{
+	background-color:#FEFFFE;
+	border:1px solid black;
+	 border-radius: 5px;
+	  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.player_two {
+	 text-align: center;
+	background-color:#FEFFFE;
+	padding:10px;
+
+	
+}
+p{
+	padding-left:10px;
+}
+
+.player{
+	text-align: center;
+	color:#FEFFFE;
+
+}
+
